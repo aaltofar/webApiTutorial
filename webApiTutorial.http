@@ -1,0 +1,39 @@
+@webApiTutorial_HostAddress = http://localhost:5143
+
+GET {{webApiTutorial_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{webApiTutorial_HostAddress}}/user/
+Accept: application/json
+
+###
+
+GET {{webApiTutorial_HostAddress}}/cat/2
+Accept: application/json
+
+###
+
+POST {{webApiTutorial_HostAddress}}/cat/
+Content-Type: application/json
+
+{
+    "name": "Tullepus",
+}
+
+###
+
+PUT {{webApiTutorial_HostAddress}}/cat/3
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "Tullepusen",
+}
+
+###
+
+DELETE {{webApiTutorial_HostAddress}}/cat/3
+
+###

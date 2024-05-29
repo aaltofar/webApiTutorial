@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mariu\\projects\\webApiTutorial\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\webApiTutorial.bundle.scp.css",
+      "PackagePath": "staticwebassets\\webApiTutorial.bundle.scp.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.webApiTutorial.props",
+      "PackagePath": "build\\webApiTutorial.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.webApiTutorial.props",
+      "PackagePath": "buildMultiTargeting\\webApiTutorial.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.webApiTutorial.props",
+      "PackagePath": "buildTransitive\\webApiTutorial.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.webApiTutorial.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
