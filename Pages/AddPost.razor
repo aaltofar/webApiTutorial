@@ -1,13 +1,84 @@
-@layout AppLayout;
 @page "/addpost"
 
 <PageTitle>Feed</PageTitle>
 
-<h1>add</h1>
+<h1>Add new post</h1>
+<div class="newPostContainer">
+    <div class="inputSection">
+        <div class="buttonLabel">First<span style="opacity: 50%;"> things first, cat or dog?</span></div>
+        <div class="buttonContainer">
+            <div
+                class="@(animalBtnIndex == 0 ? "buttonActive buttonSwitch" : "buttonSwitch")"
+                @onclick="@(e => ToggleAnimalBtn(0))"
+            >Cat</div>
+            <div
+                class="@(animalBtnIndex == 1 ? "buttonActive buttonSwitch" : "buttonSwitch")"
+                @onclick="@(e => ToggleAnimalBtn(1))"
+            >Dog</div>
+        </div>
+    </div>
 
-<p>@message</p>
+    <div class="inputSection">
+        <div class="buttonLabel">Secondly<span style="opacity: 50%;">, did you pet or spot?</span></div>
+        <div class="buttonContainer">
+            <div
+                @onclick="@(e => TogglePetSpotBtn(0))"
+                class="@(petSpotBtnIndex == 0 ? "buttonActive buttonSwitch" : "buttonSwitch")"
+            >Pet</div>
+            <div
+                @onclick="@(e => TogglePetSpotBtn(1))"
+                class="@(petSpotBtnIndex == 1 ? "buttonActive buttonSwitch" : "buttonSwitch")"
+            >Spot</div>
+        </div>
+    </div>
 
-@code {
-    private string message =
-    "Hello from a Razor component and welcome to Blazor!";
+    <div class="inputSection">
+        <div>
+            <div class="buttonLabel">Now<span style="opacity: 50%;"> add a picture</span></div>
+            <div class="buttonBig">Browse files...</div>
+        </div>
+    </div>
+
+    <div class="inputSection">
+        <div>
+            <div class="buttonLabel">Wow<span style="opacity: 50%;">, look at it</span></div>
+            <img
+                src="https://i.kym-cdn.com/photos/images/newsfeed/002/224/606/005.png"
+                alt="l2 see, skill issue"
+            >
+        </div>
+    </div>
+
+    <div class="inputSection">
+        <div>
+            <div class="buttonLabel">Lastly<span style="opacity: 50%;"> add a comment</span></div>
+            <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Comment..."
+            >
+        </div>
+    </div>
+
+    <div class="inputSection">
+        <div>
+            <div class="buttonLabel">Post<span style="opacity: 50%;"> if you're happy with this</span></div>
+            <div class="buttonBig">Very happ</div>
+        </div>
+    </div>
+</div>
+@code
+{
+    int animalBtnIndex = 0;
+    int petSpotBtnIndex = 0;
+
+    void ToggleAnimalBtn(int index)
+    {
+        animalBtnIndex = index;
+    }
+    void TogglePetSpotBtn(int index)
+    {
+        petSpotBtnIndex = index;
+    }
 }

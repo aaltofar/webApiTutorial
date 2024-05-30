@@ -1,11 +1,11 @@
-@webApiTutorial_HostAddress = http://localhost:5143
+@webApiTutorial_HostAddress = http://localhost:5229
 
 GET {{webApiTutorial_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
 
-GET {{webApiTutorial_HostAddress}}/user/
+GET {{webApiTutorial_HostAddress}}/socialpost/
 Accept: application/json
 
 ###

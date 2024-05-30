@@ -1,9 +1,8 @@
-﻿@using webApiTutorial.Components.Layout
-<Router AppAssembly="@typeof(App).Assembly">
+﻿<Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
         <RouteView
             RouteData="@routeData"
-            DefaultLayout="@typeof(AppLayout)"
+            DefaultLayout="@typeof(MainLayout)"
         />
         <FocusOnNavigate
             RouteData="@routeData"

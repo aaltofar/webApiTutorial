@@ -22,7 +22,6 @@ C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\staticwebassets\msbuild.
 C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.webApiTutorial.props
 C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\scopedcss\bundle\webApiTutorial.styles.css
 C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\scopedcss\projectbundle\webApiTutorial.bundle.scp.css
 C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\webApiTutorial.dll
@@ -37,3 +36,5 @@ C:\Users\mariu\projects\webApiTutorial\bin\Debug\net8.0\Swashbuckle.AspNetCore.S
 C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\webApiTutorial.csproj.AssemblyReference.cache
 C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\webApiTutorial.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\webApiTu.52D27108.Up2Date
+C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\scopedcss\Components\FooterNav.razor.rz.scp.css
+C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\scopedcss\Pages\AddPost.razor.rz.scp.css

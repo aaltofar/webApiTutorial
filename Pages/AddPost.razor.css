@@ -1,0 +1,54 @@
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.buttonLabel {
+    font-size: 28px;
+}
+
+.inputContainer {
+    margin: 10%;
+    padding: 5%;
+}
+
+.buttonBig {
+    background-color: #8e8ae5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 0.7em;
+    width: 10rem;
+    height: 3rem;
+}
+
+.buttonSwitch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 0.7em;
+    width: 5rem;
+    height: 3rem;
+    background-color: #f6f6f6;
+    color: #000;
+}
+
+.buttonActive {
+    background-color: #8e8ae5;
+    color: #dcdcf7;
+}
+
+img {
+    width: 40%;
+    height: 40%;
+    border-radius: 0.7em;
+}
+
+.newPostContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}

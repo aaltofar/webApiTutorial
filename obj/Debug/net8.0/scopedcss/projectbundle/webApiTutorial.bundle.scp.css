@@ -1,140 +1,89 @@
+/* _content/webApiTutorial/Components/FooterNav.razor.rz.scp.css */
+.nav-link.active[b-48dn8sze77] {
+    color: red;
+    font-weight: bold;
+}
+/* _content/webApiTutorial/Pages/AddPost.razor.rz.scp.css */
+.buttonContainer[b-99o48sq2l7] {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.buttonLabel[b-99o48sq2l7] {
+    font-size: 28px;
+}
+
+.inputContainer[b-99o48sq2l7] {
+    margin: 10%;
+    padding: 5%;
+}
+
+.buttonBig[b-99o48sq2l7] {
+    background-color: #8e8ae5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 0.7em;
+    width: 10rem;
+    height: 3rem;
+}
+
+.buttonSwitch[b-99o48sq2l7] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 0.7em;
+    width: 5rem;
+    height: 3rem;
+    background-color: #f6f6f6;
+    color: #000;
+}
+
+.buttonActive[b-99o48sq2l7] {
+    background-color: #8e8ae5;
+    color: #dcdcf7;
+}
+
+img[b-99o48sq2l7] {
+    width: 40%;
+    height: 40%;
+    border-radius: 0.7em;
+}
+
+.newPostContainer[b-99o48sq2l7] {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
 /* _content/webApiTutorial/Shared/MainLayout.razor.rz.scp.css */
+:root[b-yzyenqvddn] {
+    --textColor: #dcdcf7;
+    --backgroundColor: #dcdcf7;
+    --primaryColor: #8e8ae5;
+    --secondaryColor: #641c80;
+    --accentColor: #cd56d9;
+}
+
 .page[b-yzyenqvddn] {
     position: relative;
     display: flex;
     flex-direction: column;
 }
 
+
+
 main[b-yzyenqvddn] {
+    width: 100vw;
+    height: 1000px;
     flex: 1;
+    background-color: #1e1e2e;
+    color: #dcdcf7;
+    font-family: "Josefin Sans", sans-serif;
 }
 
-.sidebar[b-yzyenqvddn] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
-}
-
-.top-row[b-yzyenqvddn] {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
-    justify-content: flex-end;
-    height: 3.5rem;
-    display: flex;
-    align-items: center;
-}
-
-    .top-row[b-yzyenqvddn]  a, .top-row .btn-link[b-yzyenqvddn] {
-        white-space: nowrap;
-        margin-left: 1.5rem;
-    }
-
-    .top-row a:first-child[b-yzyenqvddn] {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-@media (max-width: 640.98px) {
-    .top-row:not(.auth)[b-yzyenqvddn] {
-        display: none;
-    }
-
-    .top-row.auth[b-yzyenqvddn] {
-        justify-content: space-between;
-    }
-
-    .top-row a[b-yzyenqvddn], .top-row .btn-link[b-yzyenqvddn] {
-        margin-left: 0;
-    }
-}
-
-@media (min-width: 641px) {
-    .page[b-yzyenqvddn] {
-        flex-direction: row;
-    }
-
-    .sidebar[b-yzyenqvddn] {
-        width: 250px;
-        height: 100vh;
-        position: sticky;
-        top: 0;
-    }
-
-    .top-row[b-yzyenqvddn] {
-        position: sticky;
-        top: 0;
-        z-index: 1;
-    }
-
-    .top-row[b-yzyenqvddn], article[b-yzyenqvddn] {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
-    }
-}
-/* _content/webApiTutorial/Shared/NavMenu.razor.rz.scp.css */
-.navbar-toggler[b-hogkdg2me2] {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.top-row[b-hogkdg2me2] {
-    height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
-}
-
-.navbar-brand[b-hogkdg2me2] {
-    font-size: 1.1rem;
-}
-
-.oi[b-hogkdg2me2] {
-    width: 2rem;
-    font-size: 1.1rem;
-    vertical-align: text-top;
-    top: -2px;
-}
-
-.nav-item[b-hogkdg2me2] {
-    font-size: 0.9rem;
-    padding-bottom: 0.5rem;
-}
-
-    .nav-item:first-of-type[b-hogkdg2me2] {
-        padding-top: 1rem;
-    }
-
-    .nav-item:last-of-type[b-hogkdg2me2] {
-        padding-bottom: 1rem;
-    }
-
-    .nav-item[b-hogkdg2me2]  a {
-        color: #d7d7d7;
-        border-radius: 4px;
-        height: 3rem;
-        display: flex;
-        align-items: center;
-        line-height: 3rem;
-    }
-
-.nav-item[b-hogkdg2me2]  a.active {
-    background-color: rgba(255,255,255,0.25);
-    color: white;
-}
-
-.nav-item[b-hogkdg2me2]  a:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
-}
-
-@media (min-width: 641px) {
-    .navbar-toggler[b-hogkdg2me2] {
-        display: none;
-    }
-
-    .collapse[b-hogkdg2me2] {
-        /* Never collapse the sidebar for wide screens */
-        display: block;
-    }
-    
-    .nav-scrollable[b-hogkdg2me2] {
-        /* Allow sidebar to scroll for tall menus */
-        height: calc(100vh - 3.5rem);
-        overflow-y: auto;
-    }
+h1[b-yzyenqvddn] {
+    font-family: "Kanit", sans-serif;
 }
