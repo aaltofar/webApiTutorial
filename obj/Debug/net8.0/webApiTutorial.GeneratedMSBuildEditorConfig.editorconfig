@@ -3,7 +3,7 @@ build_property.TargetFramework = net8.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
-build_property.InvariantGlobalization = true
+build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
@@ -18,46 +18,78 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\mariu\projects\webApiTutorial
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mariu/projects/webApiTutorial/Components/App.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+[C:/Users/mariu/projects/webApiTutorial/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mariu/projects/webApiTutorial/Components/Pages/AddPost.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBZGRQb3N0LnJhem9y
+[C:/Users/mariu/projects/webApiTutorial/Components/FooterNav.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb290ZXJOYXYucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mariu/projects/webApiTutorial/Components/Pages/Feed.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGZWVkLnJhem9y
+[C:/Users/mariu/projects/webApiTutorial/Components/Layout/AppLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcQXBwTGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mariu/projects/webApiTutorial/Components/Pages/Leaderboard.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMZWFkZXJib2FyZC5yYXpvcg==
+[C:/Users/mariu/projects/webApiTutorial/Pages/AddPost.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mariu/projects/webApiTutorial/Components/Pages/Login.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
+[C:/Users/mariu/projects/webApiTutorial/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mariu/projects/webApiTutorial/Components/Pages/NotificationCenter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RpZmljYXRpb25DZW50ZXIucmF6b3I=
+[C:/Users/mariu/projects/webApiTutorial/Pages/Feed.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmVlZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mariu/projects/webApiTutorial/Components/Pages/Profile.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9maWxlLnJhem9y
+[C:/Users/mariu/projects/webApiTutorial/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mariu/projects/webApiTutorial/Components/Pages/Settings.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZXR0aW5ncy5yYXpvcg==
+[C:/Users/mariu/projects/webApiTutorial/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mariu/projects/webApiTutorial/Components/Routes.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+[C:/Users/mariu/projects/webApiTutorial/Pages/Leaderboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhZGVyYm9hcmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mariu/projects/webApiTutorial/Components/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+[C:/Users/mariu/projects/webApiTutorial/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mariu/projects/webApiTutorial/Components/Pages/Welcome.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWxjb21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-rahsjx1wrs
+[C:/Users/mariu/projects/webApiTutorial/Pages/NotificationCenter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWZpY2F0aW9uQ2VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mariu/projects/webApiTutorial/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mariu/projects/webApiTutorial/Pages/Settings.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2V0dGluZ3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mariu/projects/webApiTutorial/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mariu/projects/webApiTutorial/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mariu/projects/webApiTutorial/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-yzyenqvddn
+
+[C:/Users/mariu/projects/webApiTutorial/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-hogkdg2me2
+
+[C:/Users/mariu/projects/webApiTutorial/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mariu/projects/webApiTutorial/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
