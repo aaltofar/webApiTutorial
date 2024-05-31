@@ -66,6 +66,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mariu/projects/webApiTutorial/Components/ExpBar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFeHBCYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-kuo7ethrpr
+
+[C:/Users/mariu/projects/webApiTutorial/Components/FeedHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGZWVkSGVhZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-zksrllpkl7
+
 [C:/Users/mariu/projects/webApiTutorial/Components/FooterNav.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb290ZXJOYXYucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-48dn8sze77

@@ -38,3 +38,5 @@ C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\webApiTutorial.MvcApplic
 C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\webApiTu.52D27108.Up2Date
 C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\scopedcss\Components\FooterNav.razor.rz.scp.css
 C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\scopedcss\Pages\AddPost.razor.rz.scp.css
+C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\scopedcss\Components\ExpBar.razor.rz.scp.css
+C:\Users\mariu\projects\webApiTutorial\obj\Debug\net8.0\scopedcss\Components\FeedHeader.razor.rz.scp.css
